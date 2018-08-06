@@ -37,7 +37,7 @@ export PATH="$BUILD_DIR/.heroku/node/bin:$BUILD_DIR/.heroku/yarn/bin":$PATH
 echo $BUILD_DIR
 ls -lah $BUILD_DIR
 echo $CACHE_DIR
-ls -lah $CACHE_DIR
+ls -lah "$CACHE_DIR/public/assets"
 echo $ENV_DIR
 ls -lah $ENV_DIR
 
