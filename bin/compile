@@ -34,6 +34,10 @@ source $BP_DIR/lib/dependencies.sh
 
 export PATH="$BUILD_DIR/.heroku/node/bin:$BUILD_DIR/.heroku/yarn/bin":$PATH
 
+echo $BUILD_DIR
+echo $CACHE_DIR
+echo $ENV_DIR
+
 LOG_FILE=$(mktemp -t node-build-log.XXXXX)
 echo "" > "$LOG_FILE"
 
